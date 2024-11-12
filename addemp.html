@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viaewport" content="width=device-width, initial-scale=1.0">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="S1.CSS">
+    </head>
+<title>Add Employee</title>
+<body class="eimg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="mainhome.php">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="department.php">DEPARTMENT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="employee.php">EMPLOYEE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="setsalary.html">SET SALARY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="setpayment.html">SET PAYMENT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="payslip.html">PAY SLIP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="payhistory.html">PAYMENT HISTORY</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+<div class="w3-container" style="padding: 50px 200px 20px 200px">
+<form class="w3-container" action="insertemp.php" method="post">
+<p><label for="floatingInput">Employee id</label>
+<input class="form-control" type="number" name="empid"></p>
+<p>
+<label for="floatingInput">Name</label>
+<input class="form-control" type="text" name="name">
+</p>
+<p>
+<label for="floatingInput">Date of Birth</label>
+<input class="form-control" type="date" name="dob">
+</p>
+<p>
+<label for="floatingInput">Gender</label><br>
+<input type="radio" name="gender" value="male" checked> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+</p>
+<p>
+<label for="floatingInput">Joining date</label>
+<input class="form-control" type="date" name="sdate">
+</p>
+<p>
+<label for="floatingInput">Email</label>
+<input class="form-control" type="email" name="email"></p>
+<p>
+<label for="floatingInput">Phone</label>
+<input class="form-control" type="text" name="phone"></p>
+<label for="floatingInput">Jobtitle</label>
+<select class="form-select" name="jobtitle">
+<option value="executive">Executive</option>
+<option value="manager">Manager</option>
+<option value="director">Director</option>
+<option value="accountant">Accountant</option>
+<option value="chief">Chief</option>
+</select>
+<p><label for="floatingInput">Bank Account No</label>
+<input class="form-control" type="number" name="bacc"></p>
+<p>
+<label for="floatingInput">Address</label>
+<input class="form-control" type="text" name="address">
+</p>
+<p><label for="floatingInput">Employee Department</label>
+<input class="form-control" type="number" name="depid"></p>
+<p><label for="floatingInput">Managing Department</label>
+<input class="form-control" type="number" name="managedepid"></p>
+<input type="submit" value="Submit" class="btn btn-primary btn-lg">
+</form>
+</div>
+</body></html>

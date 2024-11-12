@@ -1,0 +1,50 @@
+.dimg{
+    background-image: url(image/Profile.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+tr:hover{
+    background-color: rgb(151, 187, 219);
+    color: black;
+}
+.table{
+    background-color: rgb(64, 77, 85);
+    opacity: 0.9;
+    color: aliceblue;
+}
+.eimg{
+    background-image: url(image/remember.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.w3-container{
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+input:hover{
+    background-color: rgb(12, 12, 12);
+}
+.shadow{
+    opacity: 0.8;
+}
+.simg{
+    background-image: url(image/Services.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.pimg{
+    background-image: url(image/5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.psimg{
+    background-image: url(image/keep.png);
+}
+.phimg{
+    background-image: url(image/his.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
